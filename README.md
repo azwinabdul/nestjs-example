@@ -19,13 +19,10 @@
     <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
   <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
 </p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 This app running under nestjs framework, mongodb and opentelemetry.
+
 ## Requirement
 You need docker and docker compose to run this app.
 
@@ -66,9 +63,8 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Resource
 
-- KamilMysliwiec - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
 - Monitor Nestjs - [Monitor Nestjs](https://medium.com/@nhanngt/how-to-monitor-your-nestjs-application-968808b79432)
+
 ## License
 
 Nest is [MIT licensed](LICENSE).
