@@ -35,11 +35,14 @@ To run this app, just run docker compose command
 #RUN THIS APP JUST RUN
 docker compose up -d
 ```
+![alt text](img/dockercomposeup.png)
 You can access the apps on http://localhost:3000 after few minutes.
+![alt text](img/apprun.png)
 ## Stopping the app
 ```bash
 docker compose down
 ```
+![alt text](img/dockercomposedown.png)
 ## To run monitoring for this app 
 Run signoz
 first install signoz with
@@ -61,12 +64,11 @@ For monitoring usually i create alert after CPU / RAM reach 75% or more than 5 e
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
+## Resource
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- KamilMysliwiec - [Kamil Myśliwiec](https://kamilmysliwiec.com)
 - Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
+- Monitor Nestjs - [Monitor Nestjs](https://medium.com/@nhanngt/how-to-monitor-your-nestjs-application-968808b79432)
 ## License
 
 Nest is [MIT licensed](LICENSE).
