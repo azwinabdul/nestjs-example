@@ -51,8 +51,12 @@ then in that directory run docker compose up to start signoz monitoring
 ```bash
 docker compose up
 ```
-After that you can open http://localhost:3301 and then access
- Preferably add grafana to monitor instance and container process where this dockerized app running.  
+After that you can open http://localhost:3301 and then access mynestjsapp
+![alt text](/img/signoz.png)
+
+## Monitoring suggestion
+Preferably add grafana to monitor instance and container process where this dockerized app running.  
+For monitoring usually i create alert after CPU / RAM reach 75% or more than 5 error rate per minute.
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
