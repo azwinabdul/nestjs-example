@@ -1,0 +1,17 @@
+version: '3.2'
+
+services:
+  database:
+    image: mongo:latest
+    restart: always
+    ports:
+      - 27017:27017
+
+  nestjs:
+    build:
+      dockerfile: Dockerfile
+      target: production
+    ports:
+      - 3000:3000
+    depends_on:
+      - database 
